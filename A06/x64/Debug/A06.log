@@ -1,0 +1,96 @@
+﻿  A06.cpp
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(18,13): error C2679: binary '<<': no operator found which takes a right-hand operand of type 'const CS52::Container' (or there is no acceptable conversion)
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31823\include\ostream(475,39): message : could be 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)'
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31823\include\ostream(443,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31823\include\ostream(425,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)'
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31823\include\ostream(407,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)'
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31823\include\ostream(389,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31823\include\ostream(371,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31823\include\ostream(353,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)'
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31823\include\ostream(335,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31823\include\ostream(317,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)'
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31823\include\ostream(298,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31823\include\ostream(272,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31823\include\ostream(253,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31823\include\ostream(219,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)'
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31823\include\ostream(201,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)'
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31823\include\ostream(195,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31823\include\ostream(189,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31823\include\ostream(184,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))'
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31823\include\xstring(5179,32): message : or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(18,23): message : 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'const std::basic_string<_Elem,_Traits,_Alloc> &' from 'const CS52::Container'
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31823\include\xstring(5179): message : see declaration of 'std::operator <<'
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31823\include\memory(1914,32): message : or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)'
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(18,23): message : 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)': could not deduce template argument for 'const std::shared_ptr<_Ty> &' from 'const CS52::Container'
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31823\include\memory(1914): message : see declaration of 'std::operator <<'
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31823\include\memory(3603,32): message : or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)'
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(18,23): message : 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)': could not deduce template argument for 'const std::unique_ptr<_Ty2,_Dx2> &' from 'const CS52::Container'
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31823\include\memory(3603): message : see declaration of 'std::operator <<'
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31823\include\ostream(681,32): message : or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)'
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(18,36): message : 'initializing': cannot convert from 'const CS52::Container' to 'const char *'
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(18,36): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31823\include\ostream(725,32): message : or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)'
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(18,36): message : 'initializing': cannot convert from 'const CS52::Container' to 'char'
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(18,36): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31823\include\ostream(761,31): message : or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)'
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(18,36): message : 'initializing': cannot convert from 'const CS52::Container' to 'const char *'
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(18,36): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31823\include\ostream(806,31): message : or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)'
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(18,36): message : 'initializing': cannot convert from 'const CS52::Container' to 'char'
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(18,36): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31823\include\ostream(844,32): message : or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)'
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(18,23): message : 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)': could not deduce template argument for 'const _Elem *' from 'const CS52::Container'
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31823\include\ostream(844): message : see declaration of 'std::operator <<'
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31823\include\ostream(887,32): message : or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)'
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(18,23): message : 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)': template parameter '_Elem' is ambiguous
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31823\include\ostream(887): message : see declaration of 'std::operator <<'
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(18,13): message : could be 'CS52::Container'
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(18,13): message : or       'char'
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(18,23): message : 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)': could not deduce template argument for '_Elem' from 'const CS52::Container'
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31823\include\ostream(887): message : see declaration of 'std::operator <<'
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31823\include\ostream(923,31): message : or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)'
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(18,36): message : 'initializing': cannot convert from 'const CS52::Container' to 'const signed char *'
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(18,36): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31823\include\ostream(929,31): message : or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)'
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(18,36): message : 'initializing': cannot convert from 'const CS52::Container' to 'signed char'
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(18,36): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31823\include\ostream(934,31): message : or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)'
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(18,36): message : 'initializing': cannot convert from 'const CS52::Container' to 'const unsigned char *'
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(18,36): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31823\include\ostream(940,31): message : or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)'
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(18,36): message : 'initializing': cannot convert from 'const CS52::Container' to 'unsigned char'
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(18,36): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31823\include\ostream(998,9): message : or       '_Ostr &&std::operator <<(_Ostr &&,const _Ty &)'
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(18): message : '_Ostr &&std::operator <<(_Ostr &&,const _Ty &)': could not deduce template argument for '__formal'
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31823\include\ostream(998): message : see declaration of 'std::operator <<'
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31823\include\ostream(1075,32): message : or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)'
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(18,36): message : 'initializing': cannot convert from 'const CS52::Container' to 'const std::error_code &'
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(18,13): message : Reason: cannot convert from 'const CS52::Container' to 'const std::error_code'
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(18,36): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(18,13): message : while trying to match the argument list '(std::basic_ostream<char,std::char_traits<char>>, const CS52::Container)'
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(22,48): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(22,49): error C2270: 'at': modifiers not allowed on nonmember functions
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(26,13): error C2065: '_size': undeclared identifier
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(30,26): error C2270: 'data': modifiers not allowed on nonmember functions
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(31,20): error C2065: '_data': undeclared identifier
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(34,27): error C2270: 'empty': modifiers not allowed on nonmember functions
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(35,17): error C2065: '_size': undeclared identifier
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(42,13): error C2065: '_size': undeclared identifier
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(46,13): error C2065: '_data': undeclared identifier
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(46,19): error C2065: '_size': undeclared identifier
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(47,13): error C2065: '_size': undeclared identifier
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(50,34): error C2270: 'size': modifiers not allowed on nonmember functions
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(50,34): error C3158: 'CS52::size': 'override' can only be applied to a virtual member function
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(51,20): error C2065: '_size': undeclared identifier
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(54,38): error C2270: 'capacity': modifiers not allowed on nonmember functions
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(54,38): error C3158: 'CS52::capacity': 'override' can only be applied to a virtual member function
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(55,20): error C2065: '_capacity': undeclared identifier
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(58,43): error C2270: 'type': modifiers not allowed on nonmember functions
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(58,43): error C3158: 'CS52::type': 'override' can only be applied to a virtual member function
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(62,35): error C2801: 'CS52::operator []' must be a non-static member
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(63,48): error C2801: 'CS52::operator =' must be a non-static member
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(73,9): error C2255: 'friend': not allowed outside of a class definition
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(75,1): error C2059: syntax error: '}'
+C:\Users\dalbe\Desktop\C++\A06\A06\Container.h(75,1): error C2143: syntax error: missing ';' before '}'
+C:\Users\dalbe\Desktop\C++\A06\A06\A06.cpp(32,1): error C2143: syntax error: missing ';' before '{'
+C:\Users\dalbe\Desktop\C++\A06\A06\A06.cpp(32,1): error C2447: '{': missing function header (old-style formal list?)
